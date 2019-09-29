@@ -4,8 +4,9 @@
     "description": "Responsive Portfolio Website",
     "main": "index.js",
     "scripts": {
-        "sass": "node-sass -w scss/ -o dist/css/ --recursive"
-    },
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
     "author": "Shawn A. Meighn",
     "license": "MIT",
     "dependencies": {
