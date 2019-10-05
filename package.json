@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Modern-Style Portfolio",
     "main": "index.js",
-    "homepage": "https://solcodeguy.github.io/Sam_Portfolio/",
+    "homepage": "https://solcodeguy.github.io/Sam_Portfolio",
     "scripts": {
         "sass": "node-sass -w scss/ -o dist/css/ --recursive",
         "deploy": "gh-pages -d dist"
