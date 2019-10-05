@@ -1,14 +1,22 @@
 {
     "name": "sam_portfolio",
     "version": "1.0.0",
-    "description": "Responsive Portfolio Website",
+    "description": "Modern-Style Portfolio",
     "main": "index.js",
     "scripts": {
-        "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
-  },
+        "sass": "node-sass -w scss/ -o dist/css/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Solcodeguy/Sam_Portfolio.git"
+    },
     "author": "Shawn A. Meighn",
-    "license": "MIT",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Solcodeguy/Sam_Portfolio/issues"
+    },
+    "homepage": "https://github.com/Solcodeguy/Sam_Portfolio#readme",
     "dependencies": {
         "node-sass": "^4.12.0"
     }
+}
