@@ -138,6 +138,7 @@
 }
 
 body {
+    display: flex;
     background: #444;
     color: #fff;
     height: 100%;
@@ -332,6 +333,7 @@ main#home h1 {
 }
 
 #main-footer {
+    display: flex;
     text-align: center;
     padding: 1rem;
     background: #2b2b2b;
@@ -380,9 +382,10 @@ main#home h1 {
         transform: translate3d(100%, 0, 0);
     }
     .menu-branding .portrait {
-        background: url("../img/portrait_small.jpg");
+        display: inline-flex;
+        background: url("../img/portrait_small.png");
         width: 150px;
-        height: 150px;
+        height: 250px;
     }
     .about-info {
         grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
