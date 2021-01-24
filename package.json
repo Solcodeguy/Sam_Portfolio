@@ -5,6 +5,9 @@
     "main": "index.js",
     "Homepage": "https://solcodeguy.github.io/Sam_Portfolio",
     "scripts": {
+        "build": "react-scripts build",
+        "start": "react-scripts start",
+        "predeploy": "npm run build",
         "sass": "node-sass -w scss/ -o dist/css",
         "deploy": "gh-pages -d dist"
     },
